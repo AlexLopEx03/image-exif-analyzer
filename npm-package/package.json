@@ -1,0 +1,28 @@
+{
+  "name": "@alexlopex03/image-exif-analyzer",
+  "author": "AlexLopEx03",
+  "license": "MIT",
+  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@alexlopex03"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexLopEx03/image-exif-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexLopEx03/image-exif-analyzer/issues"
+  },
+  "homepage": "https://github.com/AlexLopEx03/image-exif-analyzer#readme",
+  "main": "main.js",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "devDependencies": {
+    "vite-plugin-wasm": "^3.5.0"
+  }
+}

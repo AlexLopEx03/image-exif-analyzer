@@ -1,0 +1,18 @@
+[package]
+name = "image-exif-analyzer"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+authors = ["AlexLopEx03"]
+repository = "https://github.com/alexlopex03/image-exif-analyzer"
+homepage = "https://github.com/alexlopex03/image-exif-analyzer"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+kamadak-exif = "0.6.1"
+serde = { version = "1.0.219", features = ["derive"]}
+serde_json = "1.0.140"
+wasm-bindgen = "0.2.100"
+getrandom = { version = "0.2", features = ["js"] }
